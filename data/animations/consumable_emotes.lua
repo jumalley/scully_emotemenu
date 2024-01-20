@@ -1594,6 +1594,28 @@ return {
             },
         },
     },
+        {
+        Label = 'Sprunk 2',
+        Command = 'sprunk2',
+        Animation = 'loop_bottle',
+        Dictionary = 'mp_player_intdrink',
+        Options = {
+            Flags = {
+                Loop = true,
+                Move = true,
+            },
+            Props = {
+                {
+                    Bone = 18905,
+                    Name = 'ng_proc_sodacan_01b',
+                    Placement = {
+                        vector3(0.075000, -0.086000, 0.065000),
+                        vector3(240.000000, -60.000000, 0.000000),
+                    }
+                },
+            },
+        },
+    },
     {
         Label = 'Taco',
         Command = 'taco',
